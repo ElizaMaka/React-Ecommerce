@@ -1,10 +1,17 @@
-import './App.css'
+import { Outlet } from 'react-router-dom'
+import Navbar from './components/Navbar/Navbar'
+import './App.jsx'
+import Footer from './components/Footer/Footer'
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
 
   return (
     <>
-     <h1>Hello</h1>
+      <Navbar />
+      <Outlet />
+      <Footer />
     </>
   )
 }

@@ -1,0 +1,108 @@
+{
+   "category": [
+    {
+      "id": 1,
+      "name": "Appetizers",
+      "image": "/image7.avif"
+    },
+    {
+      "id": 2,
+      "name": "Burgers",
+      "image": "/image1.webp"
+    },
+    {
+      "id": 3,
+      "name": "Mediterranean",
+      "image": "/image8.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Pizza",
+      "image": "/image6.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Dessert",
+      "image": "/image9.jpeg"
+    }
+  ],
+  
+  "menu": {
+    "1": [
+      {
+        "id": 1,
+        "name": "Item 1",
+        "price": 100,
+        "description" : "A food consisting of one or more cooked beef patties placed inside a sliced bread roll or bun roll."
+      },
+      {
+        "id": 2,
+        "name": "Item 2",
+        "price": 100,
+        "description" : "A food consisting of one or more cooked beef patties placed inside a sliced bread roll or bun roll."
+      }
+    ],
+    "2": [
+      {
+        "id": 3,
+        "name": "Item 3",
+        "price": 200,
+        "description" : "A food consisting of one or more cooked beef patties placed inside a sliced bread roll or bun roll.A food consisting of one or more cooked beef patties placed inside a sliced bread roll or bun roll."
+      },
+      {
+        "id": 4,
+        "name": "Item 4",
+        "price": 100,
+        "description" : "A food consisting of one or more cooked beef patties placed inside a sliced bread roll or bun roll."
+      }
+    ],
+    "3": [
+      {
+        "id": 5,
+        "name": "Item 5",
+        "price": 100,
+        "description" : "A food consisting of one or more cooked beef patties placed inside a sliced bread roll or bun roll."
+      }
+    ]
+  },
+
+
+  "review" : [ 
+    {
+      "id": 1,
+      "name": "Ram",
+      "date": "2024/12/25",
+      "description": "This food is good"
+    },
+    {
+      "id": 3,
+      "name": "Shyam",
+      "date": "2024/12/25",
+      "description": "This food is good"
+    },
+    {
+      "id": 3,
+      "name": "Harry",
+      "date": "2024/12/25",
+      "description": "This food is good"
+    },
+    {
+      "id": 4,
+      "name": "Gita",
+      "date": "2024/12/25",
+      "description": "This food is good"
+    },
+    {
+      "id": 5,
+      "name": "Sita",
+      "date": "2024/12/25",
+      "description": "This food is good"
+    },
+    {
+      "id": 6,
+      "name": "Rita",
+      "date": "2024/12/25",
+      "description": "This food is good This food is good This food is good This food is good This food is good This food is good This food is good This food is good This food is good"
+    }
+  ]
+}

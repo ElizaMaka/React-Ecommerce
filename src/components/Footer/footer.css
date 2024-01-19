@@ -1,0 +1,15 @@
+.footer{
+    border: 1px solid #F28A87;
+    background-color: #F28A87;
+    color: white;
+    margin-top: 50px;
+    width: 100%;
+}
+.footer-content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}

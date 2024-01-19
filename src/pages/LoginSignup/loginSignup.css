@@ -1,0 +1,13 @@
+.login-form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.login-form form {
+    margin: 100px auto;
+    padding: 50px 20px; 
+    background-color: #f4ece5;
+}
+.login-form form button {
+    padding: 8px 20px;
+}

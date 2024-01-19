@@ -1,0 +1,149 @@
+.menu-main{
+    width:100%;
+    height: 100%;
+}
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+}
+.menu-lists-heading .title .dropdown button{
+    font-size: 20px;
+    padding: 5px 50px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* menu listingg */
+.menu-lists .menu-lists-body {
+    margin: 20px 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.title h3 {
+    font-size: 50px;
+}
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.back i{
+    font-size: 15px;
+}
+.menu-lists-body .lists {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-lists-body .list {
+    width: 300px;
+    height: 450px;
+    background-color: #F28A87;
+    padding: 0px;
+    margin: 0px;
+}
+.list .list-top {
+    width: 100%;
+    height: 250px;
+    border: 1px solid white;
+}
+
+.list .list-top img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.list .list-body {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 200px;
+}
+.list .list-body .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.list .list-body p{
+    margin: 0;
+}
+.list .list-body button {
+    padding: 5px 15px;
+
+}
+
+
+@media(max-width: 992px){
+    .menu-lists-body .list {
+        width: 200px;
+        height: 250px;
+        background-color: #F28A87;
+        padding: 0px;
+        margin: 0px;
+    }
+    .list .list-top {
+        width: 100%;
+        height: 120px;
+    }
+    .list .list-body{
+        height: 130px;
+    }
+    .list .list-body .content{
+        margin-bottom: 0px;
+    }
+    .list .list-body h5{
+        font-size: 15px;
+        margin: 0px;
+
+    }
+    .list .list-body p{
+        font-size: 12px;
+        margin: 0px;
+    }
+    .list .list-body button{
+        font-size: 10px;
+        padding: 2px 5px;
+    }
+}
+
+@media(max-width: 576px){
+    .menu-lists-body .list {
+        width: 95px;
+        height:120px;
+        background-color: #F28A87;
+        padding: 0px;
+        margin: 0px;
+    }
+    .list .list-top {
+        width: 100%;
+        height: 60px;
+    }
+    .list .list-body{
+        height: 70px;
+        padding: 3px;
+    }
+    .list .list-body .content{
+        margin-bottom: 9px;
+    }
+    .list .list-body h5{
+        font-size: 10px;
+        margin: 0px;
+    }
+    .list .list-body p{
+        font-size: 8px;
+        margin: 0px;
+    }
+    .list .list-body button{
+        font-size: 7px;
+    }
+}
